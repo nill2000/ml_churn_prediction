@@ -20,8 +20,9 @@
 ![Screenshot 2025-04-21 at 11 16 06 AM](https://github.com/user-attachments/assets/b1cdf9f9-a7b5-43eb-a490-e091597868e4)
 
 ## ROC Plot:
-- The graph shows the a FP vs TP as thresholds change
-- The auc is 0.8, meaning there is an 80% chance that the model will choose the positive to be selected than the negative
+- The graph shows the a FPr vs TPr as thresholds change
+- In plain English, as the threshold changes from 1 to 0, what is the probability that the model flag churners correctly (TPR) compared to falsely flagging non-churners as churners (FPR)
+- AUC is 0.81. This means that when randomly choosing based on a churner and non-churner, there is an 81% chance that the model will give a higher score to the churner, correctly flagging as a churner. Score is determined based on customer input details.
 ![Screenshot 2025-04-21 at 11 16 19 AM](https://github.com/user-attachments/assets/26aece05-1b97-4f4d-8950-86fc66d35ff8)
 
 ## Features Plot:
